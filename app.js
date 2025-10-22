@@ -129,3 +129,26 @@ console.log(multiLineMessage);
 */
 
 //Opgave 1.2
+
+// Separate variables (Not so smart!)
+const movie1 = "The Matrix";
+const movie2 = "Inception";
+const movie3 = "Interstellar";
+console.log("Film 1:", movie1);
+console.log("Film 2:", movie2);
+console.log("Film 3:", movie3);
+
+// An array (list) of movies - A LOT better! creates an array of movie titles
+const movieTitles = ["The Matrix", "Inception", "Interstellar"];
+console.log("Alle film:", movieTitles);
+
+// FFetch a singular movie (IMPORTANT: Arrays start at 0!)
+console.log("Første film:", movieTitles[0]); // The Matrix
+console.log("Anden film:", movieTitles[1]); // Inception
+console.log("Tredje film:", movieTitles[2]); // Interstellar
+
+// See how many movies we have
+console.log("Antal film:", movieTitles.length); // 3
+
+//1.2 step 3: https://github.com/cederdorff/js-movie-app/blob/main/_exercises/movie-app-1.md
+
