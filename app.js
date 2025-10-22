@@ -8,6 +8,8 @@ function initApp() {
   console.log("initApp: Movie App is running 🎉"); // Log to the console that the app is running
 }
 
+/*
+
 //Our first movie-variable
 const title = "The Matrix";
 console.log("Movie title", title);
@@ -63,4 +65,67 @@ console.log("updated views", views);
 
 //description = "Bingo bongo"; //Forcing an error by trying to change a const
 
-//Fortsæt fra del 1 step 4: Arbejde med strings og tal (https://github.com/cederdorff/js-movie-app/blob/main/_exercises/movie-app-1.md)
+*/
+
+
+/*
+// Step 4
+
+// String composition (concatenation)
+const director = "Christopher Nolan";
+const movie = "Inception";
+const year = 2010;
+
+// The old method (using +)
+const oldWay = "Filmen " + movie + " fra " + year + " er instrueret af " + director;
+console.log("Gamle måde:", oldWay);
+
+// The new method (with template literals ` `)
+const newWay = `Filmen ${movie} fra ${year} er instrueret af ${director}`;
+console.log("Nye måde:", newWay);
+
+// calculate with numbers
+let rating = 8.5;
+rating = rating + 0.3; // Add 0.3
+console.log("Ny rating:", rating);
+
+let views = 0;
+views = views + 1; // Count one view
+console.log("Antal visninger:", views);
+
+// Shortcut with numbers
+views += 1; // Same as: views = views + 1
+rating += 0.1; // Same as: rating = rating + 0.1
+console.log("Opdaterede værdier:", views, rating);
+
+// let = can be changed later
+let userRating = 4.5;
+console.log("Start rating:", userRating);
+
+// Change the value (this works!)
+userRating = 5.0;
+console.log("New rating:", userRating);
+
+// Old way (works, but messy)
+const oldMessage = "The movie " + movie + " is from " + year;
+console.log("Old way:", oldMessage);
+
+// Smart way with template literals
+const smartMessage = `The movie ${movie} is from ${year}`;
+console.log("Smart way:", smartMessage);
+
+// Multiple variables in same template literal
+const complexMessage = `Movie: ${movie}, Year: ${year}, Rating: ${userRating}, Genre: ${movieGenre}`;
+console.log("Complete info:", complexMessage);
+
+// Multiple lines in same message (like your project's movie details)
+const multiLineMessage = `🎬 MOVIE INFO:
+Title: ${movie}
+Year: ${year}
+Rating: ${userRating}/10
+Genre: ${movieGenre}`;
+console.log(multiLineMessage);
+
+*/
+
+//Opgave 1.2
